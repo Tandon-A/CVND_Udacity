@@ -1,7 +1,9 @@
 import torch.nn.functional as F
 import torch.nn as nn
 
-
+"""
+Model definition for detecting facial keypoints. Outputs feature of size 136 i.e. x and y co-ordinates for 68 facial keypoints.
+"""
 class FaceNet(nn.Module):
   def __init__(self):
     super(FaceNet,self).__init__()
