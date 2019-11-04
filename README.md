@@ -2,7 +2,7 @@
 Repository for projects of Computer Vision Nanodegree by Udacity 
 
 
-## [Project 1 Facial Keypoints Detection](https://github.com/Tandon-A/CVND_Udacity/tree/master/Facial_Keypoints_Detection)
+## [Project 1: Facial Keypoints Detection](https://github.com/Tandon-A/CVND_Udacity/tree/master/Facial_Keypoints_Detection)
 
 This project aims to build a CNN model to detect facial keypoints in an image which are the points of 'interest' in a human face such as the corners of eyes and mouth. 
  
