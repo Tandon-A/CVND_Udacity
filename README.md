@@ -8,9 +8,15 @@ This project aims to build a CNN model to detect facial keypoints in an image wh
  
 The detection of facial keypoints allows building facial image manipulation applications. 
 
+![Keypoint1](https://raw.githubusercontent.com/Tandon-A/CVND_Udacity/master/Facial_Keypoints_Detection/images/obama_points.jpg "Predicted Keypoints") 
+![Keypoint2](https://raw.githubusercontent.com/Tandon-A/CVND_Udacity/master/Facial_Keypoints_Detection/images/obama_points2.jpg "Predicted Keypoints")
+
+###### Fig 1: Predicted facial Keypoints
+
+
 ![Manipulation](https://github.com/Tandon-A/CVND_Udacity/blob/master/Facial_Keypoints_Detection/images/f3.PNG "Image Manipulation")
 
-###### Fig 1: Sample image manipulation using facial keypoints
+###### Fig 2: Sample image manipulation using facial keypoints
 
 ## Acknowledgement 
 
