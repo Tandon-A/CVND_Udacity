@@ -1,5 +1,5 @@
 # CVND_Udacity
-Repository for projects of Computer Vision Nanodegree by Udacity 
+Projects of Udacity Computer Vision Nanodegree 
 
 
 ## [Project 1: Facial Keypoints Detection](https://github.com/Tandon-A/CVND_Udacity/tree/master/Facial_Keypoints_Detection)
