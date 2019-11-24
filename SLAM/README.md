@@ -4,6 +4,8 @@ The goal of this project is to do landmark detection and tracking by using simul
 
 ![SLAM Image](https://raw.githubusercontent.com/Tandon-A/CVND_Udacity/master/SLAM/images/robot_world.png)
 
+###### Fig 1: Final location of the robot found using SLAM
+
 Using the robot's sensor measurements, SLAM predicts the position of the robot and the landmarks in the world. Localizing the robot in real-time builds a map of the environment.
 
 ## Applications
