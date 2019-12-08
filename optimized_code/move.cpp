@@ -13,7 +13,7 @@ vector< vector <float> > move(int dy, int dx,
 
 	vector < vector <float> > newGrid = zeros(height, width);
 
-// OPTIMIZATION: Unnecessary variables that aren't needed are eleminated
+// OPTIMIZATION: Unnecessary variables that aren't needed are eliminated
 	int new_i;
 	
   	for (int i=0; i<height; i++) 
