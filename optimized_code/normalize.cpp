@@ -1,10 +1,10 @@
 #include "headers/normalize.h"
 using namespace std;
 
-// OPTIMIZATION: Pass variable by reference
+// OPTIMIZATION: Variable passed by reference
 vector< vector<float> > normalize(vector< vector <float> > &grid) {
 
-  	// OPTIMIZATION: Avoid declaring and defining 				// intermediate variables that are not needed.
+  	// OPTIMIZATION: Unnecessary variables are eliminated 
 	float total = 0.0;
   	int width = grid[0].size();
   	int height = grid.size();
