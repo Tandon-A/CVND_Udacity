@@ -4,7 +4,7 @@ using namespace std;
 
 vector < vector <float> > zeros(int height, int width) {
 	
-	// OPTIMIZATION: Reserve space in memory for vectors
+	// OPTIMIZATION: Reserved space in memory for vectors
 	vector < vector <float> > newGrid;
   	newGrid.reserve(height);
 	vector <float> newRow; 
@@ -15,8 +15,7 @@ vector < vector <float> > zeros(int height, int width) {
         it->reserve(width);
     }
 
-  	// OPTIMIZATION: nested for loop not needed
-    // because every row in the matrix is exactly the same
+  	// OPTIMIZATION: Not using nested for loops 
 	for (int j=0; j<width; j++) 
     {
       newRow.push_back(0.0);
