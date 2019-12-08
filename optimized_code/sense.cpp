@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// OPTIMIZATION: Pass larger variables by reference
+// OPTIMIZATION: Larger variables passed by reference
 vector< vector <float> > sense(char color, vector< vector <char> > &grid, vector< vector <float> > &beliefs,  float p_hit, float p_miss) 
 {
 	// OPTIMIZATION: Is the newGrid variable necessary?
@@ -17,13 +17,12 @@ vector< vector <float> > sense(char color, vector< vector <char> > &grid, vector
     {
 		for (int j=0; j<width; j++) 
         {
-          	// OPTIMIZATION: Which of these variables are 					needed?
+          	// OPTIMIZATION: Unnecessary variables are eliminated 
 			if ( grid[i][j] == color) 
             {
 				beliefs[i][j] = beliefs[i][j] * p_hit;
 			}
-            // OPTIMIZATION: if else statements might be 
-          	// 	faster than two if statements
+            // OPTIMIZATION: Using if-else statement  
 			else
             {
 				beliefs[i][j] = beliefs[i][j] * p_miss;
