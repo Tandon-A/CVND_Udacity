@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// OPTIMIZATION: Pass large variable by reference
+// OPTIMIZATION: Large variable passed by reference
 vector< vector <float> > move(int dy, int dx, 
 	vector < vector <float> > &beliefs) 
 {
@@ -13,7 +13,7 @@ vector< vector <float> > move(int dy, int dx,
 
 	vector < vector <float> > newGrid = zeros(height, width);
 
-// OPTIMIZATION: Eliminate any variables that aren't needed
+// OPTIMIZATION: Unnecessary variables that aren't needed are eleminated
 	int new_i;
 	
   	for (int i=0; i<height; i++) 
