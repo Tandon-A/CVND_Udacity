@@ -2,11 +2,9 @@
 
 using namespace std;
 
-// OPTIMIZATION: pass large variables by reference
+// OPTIMIZATION: Large variables passed by reference
 vector< vector <float> > initialize_beliefs(vector< vector <char> > &grid) {
 
-	// OPTIMIZATION: Which of these variables are necessary?
-	// OPTIMIZATION: Reserve space in memory for vectors
   	vector< vector <float> > newGrid;
 	vector<float> newRow;
 	int height, width;
@@ -14,7 +12,7 @@ vector< vector <float> > initialize_beliefs(vector< vector <char> > &grid) {
 
 	height = grid.size();
 	width = grid[0].size();
- 	
+ 	// OPTIMIZATION: Reserving space for vectors 
   	newGrid.reserve(height);
   	newRow.reserve(width);
   
@@ -24,7 +22,7 @@ vector< vector <float> > initialize_beliefs(vector< vector <char> > &grid) {
     }
   	prob_per_cell = 1.0 / ( (float) height*width) ;
 
-  	// OPTIMIZATION: Is there a way to get the same results 	// without nested for loops?
+  	// OPTIMIZATION: Making the newGrid matrix without nested for loops
 	for (int i=0; i<width; i++) 
     {
 		newRow.push_back(prob_per_cell);
