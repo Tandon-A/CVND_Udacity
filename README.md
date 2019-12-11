@@ -48,6 +48,23 @@ The goal of this project is to do landmark detection and tracking by using simul
 
 Using the robot's sensor measurements, SLAM predicts the position of the robot and the landmarks in the world. Localizing the robot in real-time builds a map of the environment.
 
+## [Extra Curricular Project: Code Optimization](https://github.com/Tandon-A/CVND_Udacity/tree/master/optimized_code)
+
+The goal of this project is to optimize the C++ code of the 2D histogram filter. 
+Code optimizations reduce the execution time of a program while also reducing the memory footprint, making it feasible to run the code on an embedded device or in real-time scenarios. 
+
+Execution time (in milliseconds) of the code is monitored by running every function for 10000 iterations. The best execution time achieved by the code is 16.877 milliseconds. 
+
+| File Name  | Original Problem Code execution time | Optimized  Code execution time  | Optimized  Code execution with O3 GCC flag execution time |
+ ----------- | ------------------------------------ | ------------------------------- | ----------------------------------------------------------- 
+Initialize Beliefs | 43.42 | 13.518 | 1.802 |
+Sense | 56.057 | 14.967 | 3.444 | 
+Blur | 151.49 | 67.38 | 7.748 |
+Normalize | 56.39 | 13.157 | 1.573 |
+Move | 51.566 | 16.536 | 2.31 |
+**Total** | **358.923** | **125.558** | **16.877** |
+
+
 
 ## Acknowledgement 
 
