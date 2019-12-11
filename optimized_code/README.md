@@ -37,7 +37,7 @@ g++ -std=c++11 -O3 main.cpp blur.cpp initialize_beliefs.cpp move.cpp normalize.c
 
 ## Execution Output 
 
-Execution time (in milliseconds) of the code is monitored by running every function for 10000 iterations. The best execution time achieved by the code is 
+Execution time (in milliseconds) of the code is monitored by running every function for 10000 iterations. The best execution time achieved by the code is 16.877 milliseconds. 
 
 | File Name  | Original Problem Code execution time | Optimized  Code execution time  | Optimized  Code execution with O3 GCC flag execution time |
  ----------- | ------------------------------------ | ------------------------------- | ----------------------------------------------------------- 
